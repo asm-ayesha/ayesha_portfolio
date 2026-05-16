@@ -5,7 +5,7 @@ import { SectionReveal } from "@/components/SectionReveal";
 
 export function AboutSection() {
   return (
-    <SectionReveal id="about" className="px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
+    <SectionReveal id="about" className="px-4 sm:px-6 lg:px-8">
       <div className="mx-auto grid max-w-7xl gap-4 lg:grid-cols-[0.84fr_1.16fr] lg:items-center lg:gap-6">
         <div className="relative mx-auto w-full max-w-75">
           <motion.div
@@ -22,7 +22,7 @@ export function AboutSection() {
             className="will-change-transform transform-gpu"
           >
             <motion.img
-              src="/profile.avif"
+              src="/ayesha_avatar.png"
               alt="Profile"
               whileHover={{ scale: 1.04, rotate: 0.35 }}
               whileTap={{ scale: 0.995 }}

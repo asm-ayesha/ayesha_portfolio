@@ -49,7 +49,7 @@ export function HeroSection() {
           <p className="mt-3 text-lg text-purple-200/95">MongoDB • React • Next.js</p>
 
           <p className="mt-4 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
-            I'm a passionate Full-Stack Developer specializing in React, Next.js, JavaScript, and MongoDB. I build fast, scalable web applications with clean code and thoughtful UX - turning ideas into seamless digital experiences that actually ship.
+            I am a passionate Full-Stack Developer specializing in React, Next.js, JavaScript, and MongoDB. I build fast, scalable web applications with clean code and thoughtful UX - turning ideas into seamless digital experiences that actually ship.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -101,8 +101,8 @@ export function HeroSection() {
                 }}
                 animate={{ y: [0, -5, 0] }}
                 transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-                src="/profile.png"
-                alt="Profile"
+                src="/Ayesha.png"
+                alt="Ayesha"
                 className="absolute left-1/2 top-1/2 h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full border-4 border-white/5 object-cover"
               />
 
