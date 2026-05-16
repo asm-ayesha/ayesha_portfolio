@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Ayesha Siddika Portfolio
 
-First, run the development server:
+Live:
+
+Description
+- A professional, motion-forward portfolio template built with Next.js (App Router), Tailwind CSS and Framer Motion. Designed for fast iteration and clean visuals with a dark, glassmorphism aesthetic.
+
+Features
+- Animated hero with profile ring
+- Custom loading screen with progress counter
+- Projects section with live iframe previews (driven by `src/constants/siteData.js`)
+- Smooth scrolling (Lenis) and custom cursor
+- Responsive, mobile-first layout with Tailwind utilities
+
+Tech stack
+- Next.js (App Router)
+- React + JSX
+- Tailwind CSS
+- Framer Motion
+- Lenis (smooth scrolling)
+- React Icons
+
+Folder structure (key files)
+- `src/app/` — Next.js App Router entry (layout, page)
+	- `layout.js` — global metadata & `ClientShell` wrapper
+	- `page.js` — home page composition
+- `src/components/` — reusable UI (LoadingScreen, ClientShell, ProjectCard, Navbar, Cursor, etc.)
+- `src/sections/` — page sections (Hero, About, Projects, Contact)
+- `src/constants/siteData.js` — central content source (nav, projects, social links)
+- `src/app/globals.css` — global CSS and helper classes
+
+Requirements
+- Node.js 18+ (LTS recommended)
+- npm or yarn
+
+Quick start
+1. Install dependencies
+
+```bash
+npm install
+```
+
+2. Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Build & run production
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Editing content
+- Change visible site content in `src/constants/siteData.js` (projects, social links, hero roles).
+- Update site title and OpenGraph metadata in `src/app/layout.js`.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
