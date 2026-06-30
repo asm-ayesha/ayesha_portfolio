@@ -20,7 +20,7 @@ export function ProjectsSection() {
       <div className="mx-auto max-w-screen-xl">
         <SectionHeading eyebrow="Featured Projects" compact={true} />
 
-        <div className="mt-10 flex flex-wrap gap-3">
+        <div className="mt-10 flex flex-wrap items-center gap-3">
           {projectFilters.map((filter) => (
             <button key={filter} type="button" onClick={() => setActiveFilter(filter)} className={`rounded-full border px-4 py-2 text-sm transition ${activeFilter === filter ? "border-cyan-300/30 bg-cyan-300/10 text-white" : "border-white/10 bg-white/5 text-slate-300"}`}>
               {filter}
@@ -37,6 +37,17 @@ export function ProjectsSection() {
             ))}
           </AnimatePresence>
         </motion.div>
+
+        <div className="mt-8 flex justify-center">
+          <a
+            href="https://github.com/asm-ayesha?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex rounded-full border border-cyan-300/30 bg-cyan-300/10 px-4 py-2 text-sm text-white transition hover:bg-cyan-300/20"
+          >
+            View All Projects
+          </a>
+        </div>
       </div>
     </SectionReveal>
   );
