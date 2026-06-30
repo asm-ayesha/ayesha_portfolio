@@ -152,6 +152,17 @@ export const projectFilters = ["All", "Full Stack", "Frontend"];
 
 export const projects = [
   {
+    title: "PromptVerse",
+    categories: ["Full Stack", "Frontend"],
+    description:
+      "PromptVerse is a full-stack marketplace for AI prompts. Users can discover, search, buy and share high-quality prompts for tools like ChatGPT, Midjourney and Claude. Creators publish and manage their own prompts, while admins moderate content, users and payments from dedicated dashboards.",
+    tech: ["Next.js", "React Js", "Express", "MongoDB", "Better Auth", "Tailwind CSS", "Vercel", "Stripe"],
+    live: "https://promptverse-client.vercel.app",
+    github: "https://github.com/asm-ayesha/promptverse-client",
+    accent: "purple",
+    highlights: ["Prompt detail page with content", "Light / dark theme with an animated toggle", "Copy prompts (with live copy-count), bookmark/save, review and rate, and report prompts", "Google Login Integration"],
+  },
+  {
     title: "SkillSphere",
     categories: ["Full Stack", "Frontend"],
     description:
@@ -184,17 +195,6 @@ export const projects = [
     accent: "blue",
     highlights: ["Add/remove products dynamically", "'Proceed to Checkout' clears cart instantly", "Switch between Products and Cart", "Interactive Buy Now button"],
   },
-  // {
-  //   title: "Vector Atelier",
-  //   categories: ["Frontend", "AI"],
-  //   description:
-  //     "A visual studio for premium landing pages, with motion presets and AI-assisted content workflows.",
-  //   tech: ["Next.js", "GSAP", "Lenis", "Vercel"],
-  //   live: "https://skillsphere-nextjs.vercel.app/",
-  //   github: "https://github.com/your-handle/vector-atelier",
-  //   accent: "cyan",
-  //   highlights: ["Motion presets", "Editorial layout", "Fast iteration"],
-  // },
 ];
 
 // export const testimonials = [
